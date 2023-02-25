@@ -26,21 +26,21 @@ install_requires = [
 ]
 
 setup(
-    name="deepspeech-server",
-    version='3.0.1',
-    url='https://github.com/MainRo/deepspeech-server.git',
+    name="SpeakerScore",
+    version='1.0.0',
+    url='https://github.com/Phantasm0009/SpeakerScore.git',
     license='MPL-2.0',
     description="server for mozilla deepspeech",
-    long_description=description,
+    long_description="Gives a graded holistic report of Speaking skills based upon 5 weighted criterion",
     long_description_content_type='text/x-rst',
-    author='Romain Picard',
-    author_email='romain.picard@oakbits.com',
+    author='Sonoma Hacks Submission',
+    author_email='atiwar0414@gmail.com',
     packages=find_packages(),
     install_requires=install_requires,
     include_package_data=True,
     platforms='any',
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 1 - Alpha',
         'License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)',
         'Intended Audience :: Developers',
         'Programming Language :: Python :: 3',
